@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Form({ onAddItem }) {
   const [description, setDescription] = useState("");
